@@ -1,0 +1,582 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+body {
+    background-color: #000000;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+h2,h4{
+}
+
+h3, h1{
+}
+
+a {
+    color: #ffffff;
+}
+a:hover {
+    color: #999999;
+    text-decoration: none;
+}
+
+.top_lang_bar {
+    background-color: #1a1919;
+    padding: 5px;
+}
+
+.hero_banner {
+    height: 620px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.logo {
+    background-color: rgba(255, 255, 255, .8);
+}
+
+.logo img {
+    padding: 10px 0;
+}
+
+#wrap {
+    border:none;
+    background-color: rgba(255, 152, 0, 0.8);
+    border-radius: inherit;
+    color: #ffffff;
+    margin-bottom: 0px;
+}
+
+#wrap a {
+    color: #ffffff;
+}
+
+.navbar-nav {
+    padding: 0 160px;
+}
+
+.banner_bottom {
+    /*padding-bottom: 140px;*/
+    background-color: #9E9E9E;
+}
+
+.banner_bottom img {
+    box-shadow: 0px 1px 6px 0px black;
+}
+
+.short_intro {
+    padding: 20px 30px;
+    background-color: #796348;
+    margin: 0 165px;
+    margin-top: -12px;
+    position: relative;
+}
+
+.awards {
+    background-image: url("../images/gm_patten.jpg");
+    padding: 20px 15px;
+}
+
+.awards h3 {
+    letter-spacing: 10px;
+    color: #8a6d3b;
+    font-weight: bold;
+}
+
+.awards_line {
+    padding: 2px 0;
+    background-color: #ffcc80;
+}
+
+.awards .row {
+    padding: 10px 150px;
+    padding-bottom: 50px;
+}
+
+.awards .row p {
+    height: 100px;
+}
+
+.awards_items img {
+    padding: 20px 0;
+}
+
+.awards_items p {
+    color: #8a6d3b;
+}
+
+.accommodation_title {
+    background-image: url("../images/accommodation_banner.jpg");
+    background-size: cover;
+    height: 320px;
+    padding: 115px 0;
+}
+
+.accommodation_title h3 {
+    margin-top: 0px;
+    padding: 35px 0;
+    background-color: rgba(93, 64, 55, .8);
+    letter-spacing: 10px;
+    font-weight: bold;
+}
+
+.accommodation {
+    background-image: url("../images/gm_patten.jpg");
+}
+
+.accommodation .row {
+    padding: 10px 150px;
+    padding-bottom: 50px;
+}
+
+.accommodation_items div {
+    padding-right: 0px;
+}
+
+.accommodation_items img {
+    padding: 20px 0;
+}
+
+.grandresortdeck_top {
+    background-color: #584f4c;
+    padding: 20px 0;
+}
+
+.grandresortdeck_title {
+    background-image: url("../images/grand_resort_deck_banner.png");
+    background-size: cover;
+    height:643px;
+}
+
+.grandresortdeck_title h3 {
+    color: #2196f3;
+    padding: 30px 0 10px 0;
+    background-color: #fff;
+    box-shadow: 0px 4px 4px 0px #ffffff;
+    letter-spacing: 10px;
+    font-weight:bold;
+    margin-top: 0px;
+}
+
+.grandresortdeck_content {
+    background-image: url("../images/grd_bg.png");
+    padding: 20px 150px;
+    background-color: #ffffff;
+}
+
+.grandresortdeck_content_text {
+    background-color: rgba(255, 255, 255, .3);
+    color: #985f0d;
+}
+
+.grandresortdeck_content_text p {
+    padding: 30px;
+    padding-bottom:0px;
+}
+
+.grandresortdeck_bottom{
+    background-color: #ffffff;
+    padding: 20px 0;
+}
+
+.dining {
+    background-image: url("../images/dining_bg.jpg");
+    background-size: cover;
+}
+
+.dining_title {
+    padding: 30px 0 ;
+    letter-spacing: 10px;
+    font-weight:bold;
+    margin-top: 0px;
+}
+
+.dining_content {
+    padding: 0 150px;
+}
+
+.dining_content_text {
+    background-image: url("../images/dining_content_bg.png");
+    padding: 15px;
+}
+
+.dining_content_text p {
+    padding-top: 18px;
+}
+
+.dining_content_top_left {
+    padding-right: 0px;
+}
+
+.dining_content_top_right {
+    padding-left: 0px;
+}
+
+.award_wining_restaurants {
+    background-image: url("../images/rest_bg.png");
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.restaurants_box p{
+    background-color: #000;
+    font-size: 12px;
+}
+
+.restaurants_box ul{
+    font-size: 12px;
+    padding-left:20px;
+    height: 50px;
+    /*margin-left: 3px;*/
+}
+
+.restaurants_box button {
+    background-color: rgba(0,0,0,.5);
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+.restaurants_box span {
+   padding-left: 10px;
+}
+
+.shopping {
+    background-color: #ff9800;
+    padding: 0 150px;
+}
+
+.shopping h3 {
+    padding: 0px 20px;
+    letter-spacing: 10px;
+    font-weight: bold;
+}
+
+.shopping p {
+    line-height: 33px;
+    padding: 0 15px;
+}
+
+.spa {
+    background-color: #8bc34a;
+    padding: 0 150px;
+}
+
+.spa h3 {
+    padding: 20px 20px;
+    letter-spacing: 10px;
+    font-weight: bold;
+}
+
+.spa p {
+    line-height: 33px;
+    padding: 0 15px;
+}
+
+.entertainment {
+    background-image: url(../images/gm_patten.jpg);
+    padding: 30px 150px;
+}
+
+.entertainment_content {
+    padding: 20px 0;
+    background-color: #ffffff;
+    color: red;
+    padding-bottom: 0px;
+ }
+
+.entertainment_title {
+    padding-bottom:15px;
+    letter-spacing: 10px;
+    font-weight: bold;
+}
+
+.ua_galaxy_cinemas {
+    background-color: #555;
+}
+
+.ua_galaxy_cinemas h4 {
+    padding: 35px 20px;
+    color: #ffeb3b;
+}
+
+.ua_galaxy_cinemas p {
+    line-height: 33px;
+    color: #ffffff;
+    padding: 0 15px;
+}
+
+.china_rouge {
+    background-color: #540909;
+}
+
+.china_rouge h4 {
+    padding: 35px 20px;
+    color: #ffeb3b;
+}
+
+.china_rouge p {
+    line-height: 33px;
+    color: #ffffff;
+    padding: 0 15px;
+}
+
+.footer_top {
+    padding: 30px 150px;
+    background-color: #796148;
+}
+
+.stayconnect .item {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.stayconnect .item img {
+    display: inline-block;
+}
+
+.stayconnect .item p {
+    display: inline-block;
+    padding-left: 10px;
+    margin-bottom: 0px;
+    padding: 15px 0;
+}
+
+.footer_bottom {
+    padding: 0px 150px;
+    background: #482f26;
+    font-size: 12px;
+}
+
+
+
+@media screen and (max-width: 1199px) {
+    .navbar-nav {
+        padding: 0;
+    }
+
+    .intro h1 {
+        font-size: 28px;
+    }
+
+    .awards .row p {
+        height: 150px;
+    }
+
+    .dining_content_text {
+        font-size: 12px;
+        padding: 20px;
+    }
+
+    .dining_content_text p {
+        font-size: 12px;
+        padding-top: 20px;
+    }
+
+    .restaurants_box p {
+        height: 40px;
+    }
+
+    .restaurants_box ul {
+        height: 85px;
+    }
+
+    .shopping p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .spa p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .ua_galaxy_cinemas h4 {
+        padding: 13px 20px;
+    }
+
+    .china_rouge h4 {
+        padding: 13px 20px;
+    }
+
+    .footer_top li {
+        /*font-size: 12px;*/
+    }
+
+    .stayconnect .item {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .stayconnect .item p{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .navbar-nav {
+        padding: 0;
+        font-size: 14px;
+    }
+
+    .awards .row p {
+        height: 65px;
+    }
+
+    .grandresortdeck_content {
+        background-size: cover;
+    }
+
+    .dining_content_top_left {
+        padding-right: 15px;
+    }
+
+    .dining_content_top_right {
+        padding-left: 15px;
+    }
+
+    .restaurants_box img {
+        width: 100%;
+    }
+
+    .restaurants_box ul {
+        height: 35px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    div.lang_box {
+        margin-right: 25px;
+        text-align: center;
+    }
+
+    .menu_bt_box {
+        float: left;
+        width: 100%;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .menu_bt_box button.navbar-toggle {
+        border: none;
+        float: none;
+        padding: 12px;
+        margin: 0;
+    }
+
+    .navbar-inverse .navbar-nav>li>a {
+        color: #ffffff;
+        font-size: 14px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .hero_banner {
+        height: 320px;
+    }
+
+    .short_intro {
+        margin-top: 0px;
+        margin: 0;
+    }
+
+    .intro {
+        top: 45% !important;
+        font-size: 12px;
+    }
+
+    .awards .row {
+        padding: 10px 0;
+    }
+
+    .awards .row p {
+        height: 90px;
+    }
+
+    .accommodation_title {
+        height: 245px;
+    }
+
+    .accommodation_title h3 {
+        padding: 10px 0;
+    }
+
+    .accommodation_items img {
+        width:  100%;
+    }
+
+    .accommodation .row {
+        padding: 10px 0;
+    }
+
+    .accommodation_items div {
+        padding-right: 15px;
+    }
+
+    .grandresortdeck_top {
+        padding: 10px 0;
+    }
+
+    .grandresortdeck_title h3 {
+        letter-spacing: 0px;
+    }
+
+    .grandresortdeck_title {
+        height: 195px;
+    }
+
+    .grandresortdeck_content {
+        padding: 20px 0;
+    }
+
+    .dining_content {
+        padding: 0;
+    }
+
+    .shopping {
+        padding: 0;
+    }
+
+    .spa {
+        padding: 0;
+    }
+
+    .entertainment {
+        padding: 10px 0px;
+        padding-bottom: 0px;
+    }
+
+    .footer_top {
+        padding: 10px 30px;
+    }
+
+    .stayconnect {
+        padding-left: 30px;
+    }
+
+    .footer_bottom {
+        padding: 0;
+        text-align: center;
+    }
+
+    .dining_content .row img {
+        width: 100%;
+    }
+
+    .shopping img {
+        width: 100%;
+    }
+
+    .spa img {
+        width: 100%;
+    }
+
+    .ua_galaxy_cinemas img {
+        width: 100%;
+    }
+
+    .china_rouge img {
+        width: 100%;
+    }
+}

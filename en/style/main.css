@@ -205,6 +205,7 @@ a:hover {
 .dining_content_text {
     background-image: url("../images/dining_content_bg.png");
     padding: 15px 20px;
+    background-size: cover;
 }
 
 .dining_content_text p:first-child {
@@ -366,6 +367,14 @@ a:hover {
         padding: 0;
     }
 
+    .navbar-collapse {
+        padding: 0 75px;
+    }
+
+    .awards .row p {
+        padding: 0 25px;
+    }
+
     .intro h1 {
         font-size: 28px;
         padding-left: 235px;
@@ -439,8 +448,16 @@ a:hover {
         font-size: 14px;
     }
 
+    .navbar-collapse {
+        padding: 0 30px;
+    }
+
     .awards .row p {
         height: 65px;
+    }
+
+    .accommodation_items img {
+        padding-left:65px;
     }
 
     .grandresortdeck_content {
@@ -521,8 +538,10 @@ a:hover {
         padding: 10px 0;
     }
 
+
     .accommodation_items img {
         width:  100%;
+        padding-left:0px;
     }
 
     .accommodation .row {

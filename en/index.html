@@ -52,12 +52,12 @@
                                 <!-- Collect the nav links, forms, and other content for toggling -->
                                 <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
                                     <ul class="nav navbar-nav">
-                                        <li class=""><a href="#" class="button" >ACCOMMODATION<span class="sr-only">(current)</span></a></li>
-                                        <li><a href="#" class="button" rel="who" >GRAND RESORT DECK</a></li>
-                                        <li><a href="#" class="button" rel="location" >DINIG</a></li>
-                                        <li><a href="#" class="button" rel="jobs" >SHOPPING</a></li>
-                                        <li><a href="#" class="button" rel="contactus">SPA</a></li>
-                                        <li><a href="#" class="button" rel="contactus">ENTERTAINMENT</a></li>
+                                        <li class=""><a href="#accommodation" class="button" rel="accommodation">ACCOMMODATION<span class="sr-only">(current)</span></a></li>
+                                        <li><a href="#grandresortdeck" class="button" rel="grandresortdeck" >GRAND RESORT DECK</a></li>
+                                        <li><a href="#dinig" class="button" rel="dinig" >DINIG</a></li>
+                                        <li><a href="#shopping" class="button" rel="shopping" >SHOPPING</a></li>
+                                        <li><a href="#spa" class="button" rel="spa">SPA</a></li>
+                                        <li><a href="#entertainment" class="button" rel="entertainment">ENTERTAINMENT</a></li>
                                     </ul>
                                 </div>
                                 <!-- /.navbar-collapse -->
@@ -124,7 +124,7 @@
 
             <!-- accommodation -->
             <div class="col-lg-12">
-                <div class="accommodation">
+                <div class="accommodation" id="accommodation">
                     <div class="accommodation_title">
                         <h3 class="text-center">ACCOMMODATION</h3>
                     </div>
@@ -156,7 +156,7 @@
                 <div class="grandresortdeck_top">
                     <img class="img-responsive center-block" src="./images/arrow_grd.png">
                 </div>
-                <div class="grandresortdeck_title">
+                <div class="grandresortdeck_title" id="grandresortdeck">
                     <h3 class="text-center">GRAND RESORT DECK</h3>
                 </div>
                 <div class="grandresortdeck_content">
@@ -173,7 +173,7 @@
 
             <!-- dining -->
             <div class="col-lg-12">
-                <div class="dining">
+                <div class="dining" id="dinig">
                     <h3 class="text-center dining_title">DINING</h3>
                     <div class="dining_content">
                         <div class="row">
@@ -268,7 +268,7 @@
 
             <!-- shopping and spa -->
             <div class="col-lg-12">
-                <div class="shopping">
+                <div class="shopping" id="shopping">
                     <div class="row" >
                         <div class="col-md-6">
                             <img class="img-responsive" src="./images/shopping_pic.jpg">
@@ -279,7 +279,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="spa">
+                <div class="spa" id="spa">
                     <div class="row">
                         <div class="col-md-6">
                             <h3>SPA</h3>
@@ -296,7 +296,7 @@
             <div class="col-lg-12">
                 <div class="entertainment">
                     <img class="img-responsive center-block" src="./images/arrow_grd.png" style="padding: 20px 0">
-                    <div class="entertainment_content">
+                    <div class="entertainment_content" id="entertainment">
                         <h4 class="text-center entertainment_title">ENTERTAINMENT</h4>
                         <div class="ua_galaxy_cinemas">
                             <div class="row">
@@ -401,6 +401,14 @@
             $("#wrap").removeClass("fix-menu");
 
         }
+
+    });
+
+    $(".button").click(function() {
+            $('html, body').animate({
+                scrollTop: $("#"+$(this).attr( "rel" )).offset().top
+            }, 1000);
+
 
     });
 

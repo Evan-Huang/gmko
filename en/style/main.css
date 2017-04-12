@@ -41,6 +41,10 @@ a:hover {
     padding: 10px 0;
 }
 
+.lang_box {
+    padding-left: 50px;
+}
+
 #wrap {
     border:none;
     background-color: rgba(255, 152, 0, 0.8);
@@ -67,10 +71,10 @@ a:hover {
 }
 
 .short_intro {
-    padding: 20px 30px;
+    padding: 20px 40px;
     background-color: #796348;
-    margin: 0 165px;
-    margin-top: -12px;
+    margin: 0 215px;
+    margin-top: -15px;
     position: relative;
 }
 
@@ -97,6 +101,7 @@ a:hover {
 
 .awards .row p {
     height: 100px;
+    padding: 0px 45px;
 }
 
 .awards_items img {
@@ -162,7 +167,7 @@ a:hover {
 
 .grandresortdeck_content {
     background-image: url("../images/grd_bg.png");
-    padding: 20px 150px;
+    padding: 20px 222px;
     background-color: #ffffff;
 }
 
@@ -194,16 +199,21 @@ a:hover {
 }
 
 .dining_content {
-    padding: 0 150px;
+    padding: 0 222px;
 }
 
 .dining_content_text {
     background-image: url("../images/dining_content_bg.png");
-    padding: 15px;
+    padding: 15px 20px;
 }
 
-.dining_content_text p {
-    padding-top: 18px;
+.dining_content_text p:first-child {
+    padding-top: 50px;
+}
+
+.dining_content_text p:last-child {
+    padding-top: 15px;
+    padding-bottom: 30px;
 }
 
 .dining_content_top_left {
@@ -244,7 +254,7 @@ a:hover {
 
 .shopping {
     background-color: #ff9800;
-    padding: 0 150px;
+    padding: 0 222px;
 }
 
 .shopping h3 {
@@ -260,7 +270,7 @@ a:hover {
 
 .spa {
     background-color: #8bc34a;
-    padding: 0 150px;
+    padding: 0 222px;
 }
 
 .spa h3 {
@@ -276,7 +286,7 @@ a:hover {
 
 .entertainment {
     background-image: url(../images/gm_patten.jpg);
-    padding: 30px 150px;
+    padding: 30px 222px;
 }
 
 .entertainment_content {
@@ -297,14 +307,14 @@ a:hover {
 }
 
 .ua_galaxy_cinemas h4 {
-    padding: 35px 20px;
+    padding: 35px 35px;
     color: #ffeb3b;
 }
 
 .ua_galaxy_cinemas p {
     line-height: 33px;
     color: #ffffff;
-    padding: 0 15px;
+    padding: 0 35px;
 }
 
 .china_rouge {
@@ -312,18 +322,18 @@ a:hover {
 }
 
 .china_rouge h4 {
-    padding: 35px 20px;
+    padding: 35px 35px;
     color: #ffeb3b;
 }
 
 .china_rouge p {
     line-height: 33px;
     color: #ffffff;
-    padding: 0 15px;
+    padding: 0 35px;
 }
 
 .footer_top {
-    padding: 30px 150px;
+    padding: 30px 222px;
     background-color: #796148;
 }
 
@@ -344,7 +354,7 @@ a:hover {
 }
 
 .footer_bottom {
-    padding: 0px 150px;
+    padding: 0px 222px;
     background: #482f26;
     font-size: 12px;
 }
@@ -358,10 +368,19 @@ a:hover {
 
     .intro h1 {
         font-size: 28px;
+        padding-left: 235px;
+    }
+
+    .short_intro {
+        margin-top: -10px;
     }
 
     .awards .row p {
         height: 150px;
+    }
+
+    .lang_box {
+        padding-left: 25px;
     }
 
     .dining_content_text {
